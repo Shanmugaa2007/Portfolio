@@ -23,7 +23,7 @@ export default function GithubStats() {
           className="glass-card overflow-hidden p-4"
         >
           <img
-            src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=38e0ff&icon_color=9b5cff&text_color=cbd5e1`}
+            src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${username}&theme=github_dark`}
             alt="GitHub stats"
             loading="lazy"
             className="w-full"
@@ -36,8 +36,8 @@ export default function GithubStats() {
           className="glass-card overflow-hidden p-4"
         >
           <img
-            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=38e0ff&text_color=cbd5e1`}
-            alt="Most used languages"
+            src={`https://github-readme-streak-stats.herokuapp.com?user=${username}&theme=tokyonight&hide_border=true&background=00000000&stroke=38e0ff&ring=9b5cff&fire=38e0ff&currStreakLabel=cbd5e1&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff`}
+            alt="GitHub streak"
             loading="lazy"
             className="w-full"
           />

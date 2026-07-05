@@ -30,7 +30,7 @@ export const skillCategories = [
   {
     id: 'languages',
     title: 'Languages',
-    skills: ['C', 'C++', 'Java', 'Python', 'JavaScript', 'HTML', 'CSS', 'React Native', 'Rust', 'R'],
+    skills: ['C', 'C++', 'Java','Python', 'JavaScript', 'Node Js', 'HTML', 'CSS', 'React Native', 'Rust', 'R'],
   },
   {
     id: 'frontend',
