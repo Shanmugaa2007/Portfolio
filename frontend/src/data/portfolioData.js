@@ -198,12 +198,12 @@ export const achievements = [
 ];
 
 export const certifications = [
-  { name: 'Generative AI Studio', issuer: 'Google Cloud', year: '' },
-  { name: 'Frontend Development', issuer: 'Simplilearn', year: '' },
-  { name: 'Advanced C++', issuer: 'Simplilearn', year: '' },
-  { name: 'Full Stack Development', issuer: 'Simplilearn', year: '' },
-  { name: 'React Live Bootcamp', issuer: 'SkillEcted', year: '' },
-  { name: 'Java', issuer: 'Mind Luster', year: '' },
+  { name: 'Generative AI Studio', issuer: 'Google Cloud', year: '1 Jul 2025' },
+  { name: 'Advanced C++', issuer: 'Simplilearn', year: '11 Jun 2025' },
+  { name: 'Frontend Development', issuer: 'Simplilearn', year: '14 Sep 2025' },
+  { name: 'React Live Bootcamp', issuer: 'SkillEcted', year: '21 Sep 2025' },
+  { name: 'Full Stack Development', issuer: 'Simplilearn', year: '22 Sep 2025' },
+  { name: 'Java', issuer: 'Mind Luster', year: '1 Nov 2025' },
   { name: 'Python', issuer: 'Udemy', year: '' },
 ];
 
