@@ -17,7 +17,7 @@ const item = {
 const roles = [
   'Software Engineer',
   'AI Engineer',
-  'Devops',
+  'Devops Engineer',
   'MERN Stack Developer',
   'Data Analyser',
 ];
