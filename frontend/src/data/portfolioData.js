@@ -68,9 +68,9 @@ export const techStack = {
   Frontend: ['React.js', 'Vite', 'Tailwind CSS', 'Framer Motion', 'GSAP', 'Three.js', 'React Three Fiber', 'Drei', 'Lenis', 'React Icons', 'Shadcn UI'],
   Backend: ['Node.js', 'Express.js'],
   Database: ['MongoDB', 'Mongoose'],
-  Authentication: ['JWT (architecture ready)'],
+  Authentication: ['JWT '],
   AI: ['OpenAI API', 'Claude API', 'Groq API'],
-  Deployment: ['Vercel (Frontend)', 'Render / Railway (Backend)', 'MongoDB Atlas'],
+  Deployment: ['Vercel (Frontend)', 'Render (Backend)', 'MongoDB Atlas'],
 };
 
 export const experience = [
