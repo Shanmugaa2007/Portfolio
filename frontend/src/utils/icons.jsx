@@ -1,13 +1,17 @@
 import {
   SiC,
   SiCplusplus,
+  SiCursor,
   SiPython,
   SiJavascript,
+  SiAssemblyscript,
   SiHtml5,
   SiCss,
   SiRust,
   SiR,
+  SiExpo,
   SiReact,
+  SiBootstrap,
   SiTailwindcss,
   SiThreedotjs,
   SiNodedotjs,
@@ -38,10 +42,10 @@ import {
   FaBroom,
   FaRobot,
   FaBolt,
-  FaPalette,
+  FaPalette
 } from "react-icons/fa";
 
-import { TbCube } from "react-icons/tb";
+import { TbCube, TbBrandOpenai } from "react-icons/tb";
 
 const ICONS = {
   C: SiC,
@@ -53,9 +57,11 @@ const ICONS = {
   CSS: SiCss,
   Rust: SiRust,
   R: SiR,
+  "Assembly Language": SiAssemblyscript,
 
   "React.js": SiReact,
   "React Native": FaReact,
+  "Bootstrap":SiBootstrap,
   "Tailwind CSS": SiTailwindcss,
   "Three.js": SiThreedotjs,
   "React Three Fiber": TbCube,
@@ -77,9 +83,10 @@ const ICONS = {
   SQL: FaDatabase,
   "Oracle SQL": FaDatabase,
 
-  "OpenAI API": FaRobot,
+  "OpenAI API": TbBrandOpenai,
   Claude: FaRobot,
   "Claude API": FaRobot,
+  "Cursor": SiCursor,
   "Groq API": FaBolt,
 
   "Power BI": FaChartBar,
@@ -89,7 +96,9 @@ const ICONS = {
 
   Git: SiGit,
   GitHub: SiGithub,
+  "Vercel": SiVercel,
   Docker: SiDocker,
+  "Expo": SiExpo,
   "VS Code": VscVscode,
   "Android Studio": SiAndroidstudio,
   Canva: FaPalette,
@@ -97,7 +106,7 @@ const ICONS = {
   "JWT (architecture ready)": SiJsonwebtokens,
 
   "Vercel (Frontend)": SiVercel,
-  "Render / Railway (Backend)": SiRender,
+  "Render (Backend)": SiRender,
   Railway: SiRailway,
 };
 

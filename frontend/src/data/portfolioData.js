@@ -30,17 +30,17 @@ export const skillCategories = [
   {
     id: 'languages',
     title: 'Languages',
-    skills: ['C', 'C++', 'Java','Python', 'JavaScript', 'Node Js', 'HTML', 'CSS', 'React Native', 'Rust', 'R'],
+    skills: ['C', 'C++', 'Java','Python', 'JavaScript', 'Node.js', 'Rust', 'R','Assembly Language','React.js', 'React Native', 'HTML', 'CSS'],
   },
   {
     id: 'frontend',
     title: 'Frontend',
-    skills: ['React.js', 'Tailwind CSS', 'Three.js', 'React Three Fiber'],
+    skills: ['React.js', 'Tailwind CSS', 'Three.js', 'Bootstrap', 'React Three Fiber'],
   },
   {
     id: 'backend',
     title: 'Backend',
-    skills: ['Node.js', 'Express.js', 'FastAPI'],
+    skills: ['Node.js', 'Express.js', 'Python','FastAPI'],
   },
   {
     id: 'database',
@@ -48,19 +48,24 @@ export const skillCategories = [
     skills: ['MongoDB', 'Mongoose', 'SQL', 'Oracle SQL'],
   },
   {
+    id: 'mobile app development',
+    title: 'Mobile App Development',
+    skills: ['React Native','Expo Router','Node.js','MongoDB','SQL']
+  },
+  {
     id: 'ai',
     title: 'Artificial Intelligence',
-    skills: ['OpenAI API', 'Claude', 'Groq API'],
+    skills: ['OpenAI API', 'Claude','Cursor', 'Groq API'],
   },
   {
     id: 'analytics',
     title: 'Data Analytics',
-    skills: ['Power BI', 'Excel', 'Data Cleaning', 'Data Visualization'],
+    skills: ['Power BI', 'Excel', 'Data Cleaning', 'Data Visualization','Python','R'],
   },
   {
     id: 'tools',
     title: 'Tools',
-    skills: ['Git', 'GitHub', 'Docker', 'VS Code', 'Android Studio', 'Canva'],
+    skills: ['Git', 'GitHub', 'Docker', 'Vercel','Expo','VS Code', 'Android Studio', 'Canva'],
   },
 ];
 
